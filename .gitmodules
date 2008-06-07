@@ -1,0 +1,3 @@
+[submodule "elec/schem"]
+	path = elec/schem
+	url = git://git.petertodd.org/meter-clock.schem.git
