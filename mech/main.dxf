@@ -21,13 +21,13 @@ $DIMGAP
  40
 0.025
   9
-$INSUNITS
- 70
-1
-  9
 $DIMEXO
  40
 0.025
+  9
+$INSUNITS
+ 70
+1
   9
 $DIMTXT
  40
@@ -37,17 +37,17 @@ $DIMSTYLE
   2
 Standard
   9
-$PLIMMIN
- 10
-0.0
- 20
-0.0
-  9
 $PLIMMAX
  10
 8.2677165354330722
  20
 11.6929133858267722
+  9
+$PLIMMIN
+ 10
+0.0
+ 20
+0.0
   9
 $DIMEXE
  40
@@ -1137,18 +1137,6 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-switch
-340
-0
-  0
-BLOCK_RECORD
-  5
-44
-100
-AcDbSymbolTableRecord
-100
-AcDbBlockTableRecord
-  2
 meter
 340
 0
@@ -1269,7 +1257,7 @@ AcDbBlockEnd
   0
 BLOCK
   5
-45
+44
 100
 AcDbEntity
   8
@@ -1277,7 +1265,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-switch
+meter
  70
 0
  10
@@ -1287,9 +1275,33 @@ switch
  30
 0.0
   3
-switch
+meter
   1
 
+  0
+CIRCLE
+  5
+45
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+-0.0
+ 20
+-0.0000000000000001
+ 30
+0.0
+ 40
+1.0625
   0
 CIRCLE
   5
@@ -1307,99 +1319,17 @@ AcDbCircle
   6
 ByLayer
  10
-0.0000000000000001
+-0.0
  20
 0.0000000000000001
  30
 0.0
  40
-0.354
+1.34375
   0
-CIRCLE
+ENDBLK
   5
 47
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-0
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-0.0
- 20
-0.0
- 30
-0.0
- 40
-0.32031
-  0
-ENDBLK
-  5
-48
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-49
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-meter
- 70
-0
- 10
-0.0
- 20
-0.0
- 30
-0.0
-  3
-meter
-  1
-
-  0
-CIRCLE
-  5
-4A
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-0
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-0.0000000000000006
- 20
-0.0000000000000001
- 30
-0.0
- 40
-1.3374999999999999
-  0
-ENDBLK
-  5
-4B
 100
 AcDbEntity
   8
@@ -1415,7 +1345,7 @@ ENTITIES
   0
 INSERT
   5
-4C
+48
 100
 AcDbEntity
 100
@@ -1442,12 +1372,124 @@ meter
 1.0
   0
 INSERT
+  5
+49
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+meter
+ 10
+-0.0000000000000002
+ 20
+3.2250000000000001
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+4A
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+meter
+ 10
+-0.0000000000000002
+ 20
+6.4500000000000002
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+LINE
+  5
+4B
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+-2.1499999999999999
+ 20
+8.6000000000000032
+ 30
+0.0
+ 11
+4.2999999999999998
+ 21
+8.6000000000000032
+ 31
+0.0
+  0
+LINE
+  5
+4C
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+-2.1500000000000004
+ 20
+-2.1500000000000994
+ 30
+0.0
+ 11
+4.2999999999999989
+ 21
+-2.1500000000000994
+ 31
+0.0
+  0
+LINE
   5
 4D
 100
 AcDbEntity
 100
-AcDbBlockReference
+AcDbLine
   8
 0
  62
@@ -1456,26 +1498,26 @@ AcDbBlockReference
 -1
   6
 ByLayer
-  2
-meter
  10
-3.5
+4.2999999999999989
  20
-0.0
+-2.1500000000000994
  30
 0.0
- 44
-1.0
- 45
-1.0
+ 11
+4.2999999999999998
+ 21
+8.6000000000000032
+ 31
+0.0
   0
-INSERT
+LINE
   5
 4E
 100
 AcDbEntity
 100
-AcDbBlockReference
+AcDbLine
   8
 0
  62
@@ -1484,26 +1526,26 @@ AcDbBlockReference
 -1
   6
 ByLayer
-  2
-meter
  10
-7.0
+-2.1500000000000004
  20
-0.0
+-2.1500000000000994
  30
 0.0
- 44
-1.0
- 45
-1.0
+ 11
+-2.1499999999999999
+ 21
+8.6000000000000032
+ 31
+0.0
   0
-INSERT
+CIRCLE
   5
 4F
 100
 AcDbEntity
 100
-AcDbBlockReference
+AcDbCircle
   8
 0
  62
@@ -1512,26 +1554,22 @@ AcDbBlockReference
 -1
   6
 ByLayer
-  2
-switch
  10
-0.0000000000000001
+-1.6499999999999999
  20
--2.3999999999999999
+8.1000000000000032
  30
 0.0
- 44
-1.0
- 45
-1.0
+ 40
+0.078125
   0
-INSERT
+CIRCLE
   5
 50
 100
 AcDbEntity
 100
-AcDbBlockReference
+AcDbCircle
   8
 0
  62
@@ -1540,26 +1578,22 @@ AcDbBlockReference
 -1
   6
 ByLayer
-  2
-switch
  10
-3.6000000000000005
+-1.6500000000000004
  20
--2.3999999999999999
+-1.6500000000000994
  30
 0.0
- 44
-1.0
- 45
-1.0
+ 40
+0.078125
   0
-INSERT
+CIRCLE
   5
 51
 100
 AcDbEntity
 100
-AcDbBlockReference
+AcDbCircle
   8
 0
  62
@@ -1568,26 +1602,22 @@ AcDbBlockReference
 -1
   6
 ByLayer
-  2
-switch
  10
-7.0
+3.7999999999999989
  20
--2.3999999999999999
+-1.6500000000000994
  30
 0.0
- 44
-1.0
- 45
-1.0
+ 40
+0.078125
   0
-LINE
+CIRCLE
   5
 52
 100
 AcDbEntity
 100
-AcDbLine
+AcDbCircle
   8
 0
  62
@@ -1597,101 +1627,13 @@ AcDbLine
   6
 ByLayer
  10
--2.25
+3.7999999999999998
  20
-2.0
+8.1000000000000032
  30
 0.0
- 11
-9.25
- 21
-2.0
- 31
-0.0
-  0
-LINE
-  5
-53
-100
-AcDbEntity
-100
-AcDbLine
-  8
-0
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-9.25
- 20
--3.75
- 30
-0.0
- 11
--2.25
- 21
--3.75
- 31
-0.0
-  0
-LINE
-  5
-54
-100
-AcDbEntity
-100
-AcDbLine
-  8
-0
- 62
-256
-370
--1
-  6
-ByLayer
- 10
--2.25
- 20
--3.75
- 30
-0.0
- 11
--2.25
- 21
-2.0
- 31
-0.0
-  0
-LINE
-  5
-55
-100
-AcDbEntity
-100
-AcDbLine
-  8
-0
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-9.25
- 20
-2.0
- 30
-0.0
- 11
-9.25
- 21
--3.75
- 31
-0.0
+ 40
+0.078125
   0
 ENDSEC
   0
@@ -1731,7 +1673,7 @@ E
   3
 AcDbVariableDictionary
 350
-56
+53
   0
 DICTIONARY
   5
@@ -2195,7 +2137,7 @@ Layout2
   0
 DICTIONARY
   5
-56
+53
 100
 AcDbDictionary
 281
@@ -2203,15 +2145,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-58
+55
   3
 HIDETEXT
 350
-57
+54
   0
 DICTIONARYVAR
   5
-57
+54
 100
 DictionaryVariables
 280
@@ -2221,7 +2163,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-58
+55
 100
 DictionaryVariables
 280
