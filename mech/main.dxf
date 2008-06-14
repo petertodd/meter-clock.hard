@@ -21,13 +21,13 @@ $DIMGAP
  40
 0.025
   9
-$DIMEXO
- 40
-0.025
-  9
 $INSUNITS
  70
 1
+  9
+$DIMEXO
+ 40
+0.025
   9
 $DIMTXT
  40
@@ -37,17 +37,17 @@ $DIMSTYLE
   2
 Standard
   9
-$PLIMMAX
- 10
-8.2677165354330722
- 20
-11.6929133858267722
-  9
 $PLIMMIN
  10
 0.0
  20
 0.0
+  9
+$PLIMMAX
+ 10
+8.2677165354330722
+ 20
+11.6929133858267722
   9
 $DIMEXE
  40
@@ -1327,9 +1327,313 @@ ByLayer
  40
 1.34375
   0
-ENDBLK
+CIRCLE
   5
 47
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+0.8249999999999991
+ 20
+1.4289419162443227
+ 30
+0.0
+ 40
+0.09375
+  0
+CIRCLE
+  5
+48
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+1.1667261889578024
+ 20
+1.1667261889578024
+ 30
+0.0
+ 40
+0.09375
+  0
+CIRCLE
+  5
+49
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+1.4289419162443224
+ 20
+0.8249999999999994
+ 30
+0.0
+ 40
+0.09375
+  0
+CIRCLE
+  5
+4A
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+1.5937776133769612
+ 20
+0.4270514244191591
+ 30
+0.0
+ 40
+0.09375
+  0
+CIRCLE
+  5
+4B
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+1.1109896079409125
+ 20
+1.4478698460315007
+ 30
+0.0
+ 40
+0.09375
+  0
+CIRCLE
+  5
+4C
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+1.4478698460315009
+ 20
+1.1109896079409125
+ 30
+0.0
+ 40
+0.09375
+  0
+CIRCLE
+  5
+4D
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+1.6860801468330944
+ 20
+0.6983972640662872
+ 30
+0.0
+ 40
+0.09375
+  0
+CIRCLE
+  5
+4E
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+1.8093868720071997
+ 20
+0.2382103008015937
+ 30
+0.0
+ 40
+0.09375
+  0
+LINE
+  5
+4F
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+0.8249999999999991
+ 20
+1.4289419162443227
+ 30
+0.0
+ 11
+1.1667261889578024
+ 21
+1.1667261889578024
+ 31
+0.0
+  0
+LINE
+  5
+50
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+1.1109896079409125
+ 20
+1.4478698460315007
+ 30
+0.0
+ 11
+1.4478698460315009
+ 21
+1.1109896079409125
+ 31
+0.0
+  0
+LINE
+  5
+51
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+1.4289419162443224
+ 20
+0.8249999999999994
+ 30
+0.0
+ 11
+1.5937776133769612
+ 21
+0.4270514244191591
+ 31
+0.0
+  0
+LINE
+  5
+52
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+1.6860801468330944
+ 20
+0.6983972640662872
+ 30
+0.0
+ 11
+1.8093868720071997
+ 21
+0.2382103008015937
+ 31
+0.0
+  0
+ENDBLK
+  5
+53
 100
 AcDbEntity
   8
@@ -1345,7 +1649,7 @@ ENTITIES
   0
 INSERT
   5
-48
+54
 100
 AcDbEntity
 100
@@ -1373,7 +1677,7 @@ meter
   0
 INSERT
   5
-49
+55
 100
 AcDbEntity
 100
@@ -1401,7 +1705,7 @@ meter
   0
 INSERT
   5
-4A
+56
 100
 AcDbEntity
 100
@@ -1429,7 +1733,7 @@ meter
   0
 LINE
   5
-4B
+57
 100
 AcDbEntity
 100
@@ -1457,7 +1761,7 @@ ByLayer
   0
 LINE
   5
-4C
+58
 100
 AcDbEntity
 100
@@ -1485,7 +1789,7 @@ ByLayer
   0
 LINE
   5
-4D
+59
 100
 AcDbEntity
 100
@@ -1513,7 +1817,7 @@ ByLayer
   0
 LINE
   5
-4E
+5A
 100
 AcDbEntity
 100
@@ -1541,7 +1845,7 @@ ByLayer
   0
 CIRCLE
   5
-4F
+5B
 100
 AcDbEntity
 100
@@ -1565,7 +1869,7 @@ ByLayer
   0
 CIRCLE
   5
-50
+5C
 100
 AcDbEntity
 100
@@ -1589,7 +1893,7 @@ ByLayer
   0
 CIRCLE
   5
-51
+5D
 100
 AcDbEntity
 100
@@ -1613,7 +1917,7 @@ ByLayer
   0
 CIRCLE
   5
-52
+5E
 100
 AcDbEntity
 100
@@ -1673,7 +1977,7 @@ E
   3
 AcDbVariableDictionary
 350
-53
+5F
   0
 DICTIONARY
   5
@@ -2137,7 +2441,7 @@ Layout2
   0
 DICTIONARY
   5
-53
+5F
 100
 AcDbDictionary
 281
@@ -2145,15 +2449,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-55
+61
   3
 HIDETEXT
 350
-54
+60
   0
 DICTIONARYVAR
   5
-54
+60
 100
 DictionaryVariables
 280
@@ -2163,7 +2467,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-55
+61
 100
 DictionaryVariables
 280
