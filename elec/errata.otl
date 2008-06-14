@@ -1,7 +1,7 @@
-[_] 0% Errata for v1.0 pcb spin 
-	[_] D601, fix holes
+[_] 25% Errata for v1.0 pcb spin 
+	[X] D601, fix holes
 	[_] Add version number and title text
-	[_] % Keepouts
+	[_] 0% Keepouts
 		[_] 0.5" keepout zone around edge
 		[_] Keepout around meters
 		[_] Remove all keepout silk
