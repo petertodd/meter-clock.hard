@@ -1,0 +1,3 @@
+schematics schem/meters.sch schem/ds3231.sch schem/i2c.sch schem/icsp.sch schem/main.sch schem/power.sch schem/ui.sch
+output-name meter-clock 
+elements-dir schem/sym/
